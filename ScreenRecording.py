@@ -10,7 +10,7 @@ def main():
 		while True:
 	#使用sct进行截图，并将截图结果转化为NumPy数组，方便OpenCV进行图像显示何处理
 			img = numpy.array(sct.grab(rect))
-			#显示图像，并命名为“mss window”
+			#显示图像，并将其命名为“mss window”
 			cv2.imshow('mss window',img)
 
 			#每25毫秒检查一次键盘上输入，如果是‘q’就关闭窗口，并退出监控循环
