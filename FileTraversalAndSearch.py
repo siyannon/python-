@@ -1,7 +1,7 @@
 import os
 
 def main():
-	#指定要遍历的目录（起始点）
+	#指定要遍历的目录（起始位置）
 	file_dir = './'
 	#使用os.walk()函数遍历指定目录，返回遍历到的路径、子目录、文件
 	for roots,dirs,files in os.walk(file_dir):
