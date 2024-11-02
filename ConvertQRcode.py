@@ -1,5 +1,5 @@
 import base64
-import re
+import re  #处理正则表达式
 from io import BytesIO
 from PIL import Image
 
