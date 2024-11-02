@@ -1,7 +1,6 @@
 import base64
 import qrcode
 from io import BytesIO
-from PIL import Image
 
 def main():
 	#创建变量，存储生成二维码的链接
